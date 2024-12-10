@@ -130,12 +130,34 @@ body {
 
 }
 .status{
-    z-index: 4;
+    z-index: -4;
     width: 100px;
     height: 3vh;
     background-color: aqua;
-    m-top: 200px;
+
 }
 .status__message{
     z-index: 3;
+}
+.star{
+    width: 20px;
+    height: 20px;
+
+}
+.card__para-1{
+    display: flex;
+    align-items: center;
+}
+ .card__para-2, .card__para-3{
+   line-height: 0.1em; 
+   margin: 8px 0px;
+
+   /* margin-left: -10px; */
+    
+}
+.card__para-1 {
+   line-height: 0.1em; 
+   margin: 0px;
+   margin-top: -40px;
+   margin-left: -40px;
 }
