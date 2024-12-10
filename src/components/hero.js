@@ -35,6 +35,10 @@ export default function Hero() {
           <img src={PicZero} className="hero picZero" />
         </div>
       </div>
+      <div className="hero__message">
+        <h2 className="hero__header">Onilne Experiences</h2>
+        <p className="hero__para">Join unique interactive activities led by one-of-a-kind hosts-all without leaving home</p>
+      </div>
     </div>
   );
 }
