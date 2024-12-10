@@ -9,7 +9,7 @@ export default function App (){
     <>
     <Navbar />
     <Hero />
-    <Card />
+    <Card/>
 
     </>
  )
