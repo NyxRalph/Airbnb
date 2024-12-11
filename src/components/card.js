@@ -22,42 +22,9 @@ export default function Card() {
         <p className="card__para-3"><span className="bold">From %136</span>/ Person</p>
       </div>
 
-      <div className="card__container">
-        <div className="status">
-          <p className="status__message">SOLD OUT</p>
-        </div>
-        <img className="cardThree c_img" src={CardThree} />
-        <div className="card__para-1">
-          <img className="star" src={Star} />
-          <p className="star__para">5.0 (6) USA</p>
-        </div>
-        <p className="card__para-2">XVZ Fashion Week</p>
-        <p className="card__para-3"><span className="bold"> From $136</span>/ Person</p>
-      </div>
-      <div className="card__container">
-        <div className="status">
-          <p className="status__message">SOLD OUT</p>
-        </div>
-        <img className="cardFive c_img" src={CardFive} />
-        <div className="card__para-1">
-          <img className="star" src={Star} />
-          <p className="star__para">5.0 (6) USA</p>
-        </div>
-        <p className="card__para-2">XVZ Fashion Week</p>
-        <p className="card__para-3"><span className="bold">From %136</span>/ Person</p>
-      </div>
-      <div className="card__container">
-        <div className="status">
-          <p className="status__message">SOLD OUT</p>
-        </div>
-        <img className="cardThree c_img" src={CardThree} />
-        <div className="card__para-1">
-          <img className="star" src={Star} />
-          <p className="star__para">5.0 (6) USA</p>
-        </div>
-        <p className="card__para-2">XVZ Fashion Week</p>
-        <p className="card__para-3"><span className="bold">From %136</span>/ Person</p>
-      </div>
+     
+     
+      
     </div>
   );
 }
