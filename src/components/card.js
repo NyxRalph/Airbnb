@@ -6,11 +6,13 @@ export default function Card(props) {
       <div className="status">
         <p className="status__message">{props.available}</p>
       </div>
-      <img className="cardTwo c_img" src={props.img} />
+      <img className="cardTwo c_img" src={`../images/${props.img}` }/>
 
       <div className="card__para-1">
         <img className="star" src={props.star} />
-        <p className="star__para">{props.rating} {props.review} {props.country}</p>
+        <p className="star__para">
+          {props.rating} {props.review} {props.country}
+        </p>
       </div>
       <p className="card__para-2"> {props.title}</p>
       <p className="card__para-3">
