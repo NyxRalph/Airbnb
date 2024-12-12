@@ -2,6 +2,7 @@ export default function Data() {
   return [
     {
         id: 1,
+        key: 1,
          img:"e1.jpeg",
         title: "Cozy Cottage in the Woods",
         description:
@@ -16,6 +17,7 @@ export default function Data() {
       },
       {
         id: 2,
+        key: 2,
         img:"e2.jpeg",
         title: "Modern Apartment in the City",
         description:
@@ -30,6 +32,7 @@ export default function Data() {
       },
       {
         id: 3,
+        key: 3,
         img:"e3.jpeg",
         title: "Beachfront Villa",
         description:
@@ -44,6 +47,7 @@ export default function Data() {
       },
       {
         id: 4,
+        key: 4,
         img:"e4.jpeg",
         title: "Charming Studio in Historic District",
         description:
@@ -58,7 +62,8 @@ export default function Data() {
       },
       {
         id: 5,
-        img:"e5.jpeg",
+        key: 5,
+        img:"e5.jpg",
         title: "Luxury Penthouse with City Views",
         description:
           "Experience luxury living in this penthouse with breathtaking views of the skyline.",
@@ -72,6 +77,7 @@ export default function Data() {
       },
       {
         id: 6,
+        key: 6,
         img:"e6.jpeg",
         title: "Rustic Cabin in the Mountains",
         description:
@@ -86,7 +92,23 @@ export default function Data() {
       },
       {
         id: 7,
-        img:"e7.jpeg",
+        key: 7,
+        img:"e7.jpg",
+        title: "Stylish Loft in Arts District",
+        description:
+          "Stay in this trendy loft located in the arts district, surrounded by galleries and cafes.",
+        price: 220,
+        states: {
+          rating: 4.8,
+          reviewcount: 10,
+        },
+        location: "Los Angeles, CA",
+        openSpots: 2,
+      },
+      {
+        id: 8,
+        key: 8,
+        img:"e8.jpg",
         title: "Stylish Loft in Arts District",
         description:
           "Stay in this trendy loft located in the arts district, surrounded by galleries and cafes.",
