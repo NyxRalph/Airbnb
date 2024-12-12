@@ -10,27 +10,6 @@ import "../src/style.css";
 
 
 
-// for (let i = 0; i < Data().length; ++i){
-//   console.log(Data()[i]);
-
-//   console.log(
-//     Data().map((Data) => {
-//       <Card
-//         img={Data.img}
-//         available="SOLD OUT"
-//         star={star}
-//         rating={Data.rating}
-//         review={Data.reviewcount}
-//         country={Data.location}
-//         title={Data.title}
-//         price={Data.price}
-//       />
-//     })
-//   )
-
-// }
-
-
 console.log(Data()[1].location)
 console.log(Data()[1].img)
         
