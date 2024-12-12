@@ -1,124 +1,132 @@
 export default function Data() {
   return [
     {
-        id: 1,
-        key: 1,
-         img:"e1.jpeg",
-        title: "Cozy Cottage in the Woods",
-        description:
-          "Escape to this charming cottage surrounded by nature. Perfect for a peaceful getaway.",
-        price: 150,
-        states: {
-          rating: 4.8,
-          reviewcount: 45,
-        },
-        location: "Asheville, NC",
-        openSpots: 5,
+      id: 1,
+
+      img: "e1.jpeg",
+      star: "Star.jpg",
+      title: "Cozy Cottage in the Woods",
+      description:
+        "Escape to this charming cottage surrounded by nature. Perfect for a peaceful getaway.",
+      price: 150,
+      states: {
+        rating: 4.8,
+        reviewcount: 45,
       },
-      {
-        id: 2,
-        key: 2,
-        img:"e2.jpeg",
-        title: "Modern Apartment in the City",
-        description:
-          "Enjoy the vibrant city life in this stylish apartment located in the heart of downtown.",
-        price: 200,
-        states: {
-          rating: 4.9,
-          reviewcount: 30,
-        },
-        location: "New York, NY",
-        openSpots: 3,
+      location: "Asheville, NC",
+      openSpots: 0,
+    },
+    {
+      id: 2,
+
+      img: "e2.jpeg",
+      star: "Star.jpg",
+      title: "Modern Apartment in the City",
+      description:
+        "Enjoy the vibrant city life in this stylish apartment located in the heart of downtown.",
+      price: 200,
+      states: {
+        rating: 4.9,
+        reviewcount: 30,
       },
-      {
-        id: 3,
-        key: 3,
-        img:"e3.jpeg",
-        title: "Beachfront Villa",
-        description:
-          "Relax in this luxurious villa with stunning ocean views and direct beach access.",
-        price: 350,
-        states: {
-          rating: 5.0,
-          reviewcount: 60,
-        },
-        location: "Malibu, CA",
-        openSpots: 2,
+      location: "New York, NY",
+      openSpots: 0,
+    },
+    {
+      id: 3,
+
+      img: "e3.jpeg",
+      star: "Star.jpg",
+      title: "Beachfront Villa",
+      description:
+        "Relax in this luxurious villa with stunning ocean views and direct beach access.",
+      price: 350,
+      states: {
+        rating: 5.0,
+        reviewcount: 60,
       },
-      {
-        id: 4,
-        key: 4,
-        img:"e4.jpeg",
-        title: "Charming Studio in Historic District",
-        description:
-          "Stay in this quaint studio located in a historic neighborhood, close to local attractions.",
-        price: 120,
-        states: {
-          rating: 4.7,
-          reviewcount: 25,
-        },
-        location: "Savannah, GA",
-        openSpots: 4,
+      location: "Malibu, CA",
+      openSpots: 2,
+    },
+    {
+      id: 4,
+
+      img: "e4.jpeg",
+      star: "Star.jpg",
+      title: "Charming Studio in Historic District",
+      description:
+        "Stay in this quaint studio located in a historic neighborhood, close to local attractions.",
+      price: 120,
+      states: {
+        rating: 4.7,
+        reviewcount: 25,
       },
-      {
-        id: 5,
-        key: 5,
-        img:"e5.jpg",
-        title: "Luxury Penthouse with City Views",
-        description:
-          "Experience luxury living in this penthouse with breathtaking views of the skyline.",
-        price: 500,
-        states: {
-          rating: 4.9,
-          reviewcount: 15,
-        },
-        location: "Chicago, IL",
-        openSpots: 1,
+      location: "Savannah, GA",
+      openSpots: 4,
+    },
+    {
+      id: 5,
+
+      img: "e5.jpg",
+      star: "Star.jpg",
+      title: "Luxury Penthouse with City Views",
+      description:
+        "Experience luxury living in this penthouse with breathtaking views of the skyline.",
+      price: 500,
+      states: {
+        rating: 4.9,
+        reviewcount: 15,
       },
-      {
-        id: 6,
-        key: 6,
-        img:"e6.jpeg",
-        title: "Rustic Cabin in the Mountains",
-        description:
-          "Unwind in this rustic cabin nestled in the mountains, perfect for hiking and outdoor adventures.",
-        price: 180,
-        states: {
-          rating: 4.6,
-          reviewcount: 20,
-        },
-        location: "Denver, CO",
-        openSpots: 6,
+      location: "Chicago, IL",
+      openSpots: 1,
+    },
+    {
+      id: 6,
+
+      img: "e6.jpeg",
+      star: "Star.jpg",
+      title: "Rustic Cabin in the Mountains",
+      description:
+        "Unwind in this rustic cabin nestled in the mountains, perfect for hiking and outdoor adventures.",
+      price: 180,
+      states: {
+        rating: 4.6,
+        reviewcount: 20,
       },
-      {
-        id: 7,
-        key: 7,
-        img:"e7.jpg",
-        title: "Stylish Loft in Arts District",
-        description:
-          "Stay in this trendy loft located in the arts district, surrounded by galleries and cafes.",
-        price: 220,
-        states: {
-          rating: 4.8,
-          reviewcount: 10,
-        },
-        location: "Los Angeles, CA",
-        openSpots: 2,
+      location: "Denver, CO",
+      openSpots: 0,
+    },
+    {
+      id: 7,
+
+      img: "e7.jpg",
+      star: "Star.jpg",
+      title: "Stylish Loft in Arts District",
+      description:
+        "Stay in this trendy loft located in the arts district, surrounded by galleries and cafes.",
+      price: 220,
+      states: {
+        rating: 4.8,
+        reviewcount: 10,
       },
-      {
-        id: 8,
-        key: 8,
-        img:"e8.jpg",
-        title: "Stylish Loft in Arts District",
-        description:
-          "Stay in this trendy loft located in the arts district, surrounded by galleries and cafes.",
-        price: 220,
-        states: {
-          rating: 4.8,
-          reviewcount: 10,
-        },
-        location: "Los Angeles, CA",
-        openSpots: 2,
+      location: "Los Angeles, CA",
+      openSpots: 2,
+    },
+    {
+      id: 8,
+
+      img: "e8.jpg",
+      star: "Star.jpg",
+      title: "Stylish Loft in Arts District",
+      description:
+        "Stay in this trendy loft located in the arts district, surrounded by galleries and cafes.",
+      price: 220,
+      states: {
+        rating: 4.8,
+        reviewcount: 10,
       },
+      location: "Los Angeles, CA",
+      openSpots: 2,
+    },
   ];
 }

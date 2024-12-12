@@ -106,7 +106,7 @@ body {
 /* CARD SECTION  */
 .card__section {
   width: 100%;
-  height: auto;
+  height: 140vh;
   background-color: rgb(243, 243, 243);
   display: flex;
   flex-wrap: wrap;
