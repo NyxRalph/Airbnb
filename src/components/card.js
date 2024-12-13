@@ -4,13 +4,13 @@ import Data from "../data"
 
 export default function Card(props) {
 
-  console.log(props.Data.review)
+  // console.log(props.Data[1].reviewcount)
 
 
   return (
     <div className="card__container">
       <div className="status">
-        {props.Data.openspots === 0 && (
+        {props.Data.openSpots === 0 && (
           <p className="status__message">{props.Data.available}</p>
         )}
       </div>
@@ -19,7 +19,7 @@ export default function Card(props) {
       <div className="card__para-1">
         <img className="star" src={require(`./images/${props.Data.star}`)} />
         <p className="star__para">
-          {props.Data.rating} {props.Data.review} {props.Data.country}
+          {props.Data.states.rating} ({props.Data.states.reviewcount}) {props.Data.country}
         </p>
       </div>
       <p className="card__para-2"> {props.Data.title}</p>
