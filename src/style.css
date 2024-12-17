@@ -123,6 +123,7 @@ body {
 }
 .card__container {
   position: relative; /* Ensure the hover card is positioned relative to the card */
+  transition: all 300ms ease;
 }
 .card__container {
   display: flex;

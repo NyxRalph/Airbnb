@@ -8,6 +8,7 @@
     padding: 20px;
     z-index: 10;
     width: 300px; /* Adjust width as needed */
+    transition: all 300ms ease;
   }
   
   .hover-card__image {
