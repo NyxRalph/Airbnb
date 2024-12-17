@@ -18,15 +18,6 @@ export default function App() {
           <Card
             key={Data.id}
             Data={Data}
-            // img={Data.img}
-            // available="SOLD OUT"
-            // star={star}
-            // rating={Data.rating}
-            // review={Data.reviewcount}
-            // country={Data.location}
-            // title={Data.title}
-            // price={Data.price}
-            // openspots={Data.openSpots}
           />
         ))}
       </div>
