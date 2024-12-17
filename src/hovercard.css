@@ -1,0 +1,20 @@
+/* HOVERCARD  */
+.hover-card {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 10;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .hover-card__image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .hover-card__details {
+    margin-top: 10px;
+  }

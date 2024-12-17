@@ -122,6 +122,9 @@ body {
   border-radius: 10px;
 }
 .card__container {
+  position: relative; /* Ensure the hover card is positioned relative to the card */
+}
+.card__container {
   display: flex;
 
   justify-content: center;
@@ -166,6 +169,7 @@ body {
 .bold {
   font-weight: 700;
 }
+
 
 @media (max-width: 768px) {
   body {
