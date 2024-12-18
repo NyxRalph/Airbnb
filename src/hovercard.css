@@ -8,14 +8,21 @@
     padding: 20px;
     z-index: 10;
     width: 300px; /* Adjust width as needed */
-    transition: all 300ms ease;
+    transition: opacity 300ms ease, transform 300ms ease; /* Add transition for opacity and transform */
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateY(-10px); /* Slightly move it up for a better effect */
   }
-  
+  .hover-card.visible {
+    opacity: 1; /* Fully visible when the class is added */
+    transform: translateY(0); /* Reset the transform */
+}
   .hover-card__image {
     width: 100%;
     border-radius: 8px;
+    transition: all 300ms ease;
   }
   
   .hover-card__details {
     margin-top: 10px;
+    transition: all 250ms ease;
   }

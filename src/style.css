@@ -81,6 +81,20 @@ body {
 .picNine,
 .picZero {
   margin: 10px 0px;
+  transition: all 200ms ease;
+}
+.picOne:hover,
+.picTwo:hover,
+.picThree:hover,
+.picFour:hover,
+.picFive:hover,
+.picSix:hover,
+.picSeven:hover,
+.picEight:hover,
+.picNine:hover,
+.picZero:hover {
+transform: scale(1.12);
+transition: all 250ms ease;
 }
 .hero__section {
   display: flex;

@@ -1,9 +1,10 @@
+
 import React from "react";
 import "../hovercard.css"; 
 
-export default function HoverCard({ data, onClose }) {
+export default function HoverCard({ data, onClose, isVisible }) {
   return (
-    <div className="hover-card" onMouseLeave={onClose}>
+    <div className={`hover-card ${isVisible ? 'visible' : ''}`} onMouseLeave={onClose}>
       <img className="hover-card__image" src={require(`./images/${data.img}`)} alt={data.title} />
       <div className="hover-card__details">
         <h3>{data.title}</h3>
