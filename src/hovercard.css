@@ -7,14 +7,14 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
     z-index: 10;
-    width: 300px; /* Adjust width as needed */
-    transition: opacity 300ms ease, transform 300ms ease; /* Add transition for opacity and transform */
-    opacity: 0; /* Start with opacity 0 */
-    transform: translateY(-10px); /* Slightly move it up for a better effect */
+    width: 300px; 
+    transition: opacity 300ms ease, transform 300ms ease;
+    opacity: 0; 
+    transform: translateY(-10px); 
   }
   .hover-card.visible {
-    opacity: 1; /* Fully visible when the class is added */
-    transform: translateY(0); /* Reset the transform */
+    opacity: 1;
+    transform: translateY(0); 
 }
   .hover-card__image {
     width: 100%;
@@ -25,4 +25,19 @@
   .hover-card__details {
     margin-top: 10px;
     transition: all 250ms ease;
+  }
+
+  @media (max-width: 768px) {
+   
+    .card__section{
+      /* display: flex; */
+  
+    }
+    .hover-card{
+      width: 200px; 
+    }
+    .hover-card.visible {
+      /* z-index: 10; */
+    
+  }
   }
