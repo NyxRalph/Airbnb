@@ -140,6 +140,7 @@ transition: all 250ms ease;
 .card__container {
   position: relative; 
   transition: all 300ms ease;
+  padding: 0px 0px;
 }
 .card__container {
   display: flex;
