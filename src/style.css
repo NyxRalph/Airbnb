@@ -8,6 +8,7 @@ body {
   height: 101vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: all 300ms ease;
+  overflow-x: hidden;
 }
 .hero__nav {
   width: 100%;
@@ -142,13 +143,11 @@ transition: all 250ms ease;
 }
 .card__container {
   display: flex;
-
   justify-content: center;
   flex-direction: column;
-  width: 10em;
+  width: 12em;
   height: 58vh;
-
-  margin-left: 40px;
+  margin: 25px;
 }
 .status {
   z-index: 4;
