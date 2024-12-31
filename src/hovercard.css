@@ -16,6 +16,10 @@
     opacity: 1;
     transform: translateY(0); 
 }
+  .hover-card.visible {
+    opacity: 1;
+    transform: translateY(0); 
+}
   .hover-card__image {
     width: 100%;
     border-radius: 8px;
