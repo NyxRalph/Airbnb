@@ -94,8 +94,8 @@ body {
 .picEight:hover,
 .picNine:hover,
 .picZero:hover {
-transform: scale(1.12);
-transition: all 250ms ease;
+  transform: scale(1.12);
+  transition: all 250ms ease;
 }
 .hero__section {
   display: flex;
@@ -120,6 +120,7 @@ transition: all 250ms ease;
 }
 
 /* CARD SECTION  */
+
 .card__section {
   width: fit-content;
   height: 60vh;
@@ -138,7 +139,7 @@ transition: all 250ms ease;
   border-radius: 10px;
 }
 .card__container {
-  position: relative; 
+  position: relative;
   transition: all 300ms ease;
   padding: 0px 0px;
 }
@@ -185,7 +186,6 @@ transition: all 250ms ease;
 .bold {
   font-weight: 700;
 }
-
 
 @media (max-width: 768px) {
   body {
@@ -246,19 +246,19 @@ transition: all 250ms ease;
   .containFive {
     width: 19%;
   }
-  .hero__logo{
+  .hero__logo {
     padding-left: 15px;
   }
-  .pic__container{
+  .pic__container {
     height: 43vh;
   }
-  .hero__header{
+  .hero__header {
     font-size: 1.7em;
   }
-  .hero__para{
+  .hero__para {
     font-size: 1.1em;
   }
-  .card__container{
+  .card__container {
     margin: 0px 20px;
     width: 35%;
   }
