@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import HoverCard from "./hovercard";
 
 export default function Card(props) {
-  // const [isHovered, setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div className="card__container" 
