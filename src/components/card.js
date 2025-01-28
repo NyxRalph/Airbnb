@@ -8,7 +8,7 @@ export default function Card(props) {
 
   return (
     <div className="card__container" 
-        //  onMouseEnter={() => setIsHovered(true)} 
+        //  onMouseEnter={() => setIsHovered(true)} gt
          onMouseLeave={() => setIsHovered(false)}>
       <div className="status">
         {props.Data.openSpots === 0 && (
