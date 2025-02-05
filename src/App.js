@@ -15,10 +15,7 @@ export default function App() {
 
       <div className="card__section">
         {Data().map((Data) => (
-          <Card
-            key={Data.id}
-            Data={Data}
-          />
+          <Card key={Data.id} Data={Data} />
         ))}
       </div>
     </>

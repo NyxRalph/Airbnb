@@ -2,7 +2,7 @@ export default function Data() {
   return [
     {
       id: 1,
-
+      available:"SOLD OUT",
       img: "e1.jpeg",
       star: "Star.jpg",
       title: "Cozy Cottage in the Woods",
@@ -18,7 +18,7 @@ export default function Data() {
     },
     {
       id: 2,
-
+      available:"SOLD OUT",
       img: "e2.jpeg",
       star: "Star.jpg",
       title: "Modern Apartment in the City",
@@ -34,7 +34,7 @@ export default function Data() {
     },
     {
       id: 3,
-
+      available:"AVAILABLE",
       img: "e3.jpeg",
       star: "Star.jpg",
       title: "Beachfront Villa",
@@ -50,7 +50,7 @@ export default function Data() {
     },
     {
       id: 4,
-
+      available:"AVAILABLE",
       img: "e4.jpeg",
       star: "Star.jpg",
       title: "Charming Studio in Historic District",
@@ -66,7 +66,7 @@ export default function Data() {
     },
     {
       id: 5,
-
+      available:"AVAILABLE",
       img: "e5.jpg",
       star: "Star.jpg",
       title: "Luxury Penthouse with City Views",
@@ -82,7 +82,7 @@ export default function Data() {
     },
     {
       id: 6,
-
+      available:"SOLD OUT",
       img: "e6.jpeg",
       star: "Star.jpg",
       title: "Rustic Cabin in the Mountains",
@@ -98,7 +98,7 @@ export default function Data() {
     },
     {
       id: 7,
-
+      available:"AVAILABLE",
       img: "e7.jpg",
       star: "Star.jpg",
       title: "Stylish Loft in Arts District",
@@ -114,7 +114,7 @@ export default function Data() {
     },
     {
       id: 8,
-
+      available:"SOLD OUT",
       img: "e8.jpg",
       star: "Star.jpg",
       title: "Stylish Loft in Arts District",
@@ -126,7 +126,7 @@ export default function Data() {
         reviewcount: 10,
       },
       location: "Los Angeles, CA",
-      openSpots: 2,
+      openSpots: 0,
     },
   ];
 }
