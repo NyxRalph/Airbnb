@@ -3,12 +3,12 @@ import HoverCard from "./hovercard";
 
 export default function Card(props) {
 
-  // let badgeText ;
-  // if (props.Data.openSpots === 0) {
-  //   badgeText = "SOLD OUT";
-  // } else if (props.Data.openSpots !== 0) {
-  //   badgeText = "ONLINE";
-  // }
+  let badgeText ;
+  if (props.Data.openSpots === 0) {
+    badgeText = "SOLD OUT";
+  } else if (props.Data.openSpots !== 0) {
+    badgeText = "ONLINE";
+  }
 
   const [isHovered, setIsHovered] = useState(false);
 
