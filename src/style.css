@@ -122,15 +122,22 @@ body {
 /* CARD SECTION  */
 
 .card__section {
+  scroll-behavior: smooth;
+}
+.card__scroller {
+  /* max-width: 2000px; */
   width: fit-content;
-  height: 60vh;
-  padding: 200px 0px;
+  height: 108vh;
+
   background-color: rgb(243, 243, 243);
   display: flex;
+  /* flex-wrap: wrap; */
   overflow-y: scroll;
+
   align-items: center;
   justify-content: center;
   margin: 50px 0px;
+  scroll-behavior: smooth;
 }
 .c_img {
   width: 99%;

@@ -14,10 +14,13 @@ export default function App() {
       <Hero />
 
       <div className="card__section">
-        {Data().map((Data) => (
-          <Card key={Data.id} Data={Data} />
-        ))}
+        <div className="card__scroller">
+          {Data().map((Data) => (
+            <Card key={Data.id} Data={Data} />
+          ))}
+        </div>
       </div>
+      <Hero />
     </>
   );
 }
