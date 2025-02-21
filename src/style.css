@@ -126,8 +126,8 @@ body {
   width: fit-content;
 }
 .card__scroller {
-  width: 3000px;
-  height: 108vh;
+  /* width: 3000px; */
+  height: 128vh;
 
   background-color: rgb(243, 243, 243);
   background-image: url(./components/images/w1.jpeg);
