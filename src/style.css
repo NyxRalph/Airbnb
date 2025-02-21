@@ -123,20 +123,23 @@ body {
 
 .card__section {
   scroll-behavior: smooth;
+  width: fit-content;
 }
 .card__scroller {
-  /* max-width: 2000px; */
-  width: fit-content;
+  width: 3000px;
   height: 108vh;
 
   background-color: rgb(243, 243, 243);
+  background-image: url(./components/images/w1.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   overflow-y: scroll;
-
   align-items: center;
   justify-content: center;
-  margin: 50px 0px;
+  /* margin: 50px 0px; */
+
   scroll-behavior: smooth;
 }
 .c_img {
