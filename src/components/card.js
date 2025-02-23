@@ -14,11 +14,11 @@ export default function Card(props) {
 
 
   return ( 
-    <div
-      className="card__container"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
+    // <div
+    //   className="card__container"
+    //   onMouseEnter={() => setIsHovered(true)}
+    //   onMouseLeave={() => setIsHovered(false)}
+    // >
       <div className="status">
         {badgeText && (
           <p className="status__message">{badgeText}</p>
